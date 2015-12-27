@@ -1,5 +1,58 @@
+*{
+  transition: 2s;
+}
+
 .vid {
   margin: 0 auto;
   text-align: center;
   padding-top: 15px;
+}
+
+#stonePalace {
+  padding-left: 436px;
+  height: 16px;
+  width: 384px;
+}
+
+.exhibition{
+  font-family: Arial;
+  text-align: center;
+  font-size: 25px;
+
+
+}
+.secondText{
+  font-family: Arial;
+  text-align: center;
+  padding-top: -10px;
+  padding-right: 86px;
+  font-weight: 300;
+  line-height: 36px;
+  font-size: 15px;
+  font-style: italic;
+  font
+}
+
+.castle{
+      padding-left: 245px;
+      height:766px;
+    vendor-animation-duration: 3s;
+  vendor-animation-delay: 2s;
+  vendor-animation-iteration-count: infinite;
+  background-color: white;
+}
+}
+
+.dates {
+  padding-left: 65px;
+  font-weight: bold;
+}
+
+.lildude{
+  height: 333px;
+  margin-right: -883px;
+  position: relative;
+  width: 247px;
+  margin-top: -230px;
+
 }
