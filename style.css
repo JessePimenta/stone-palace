@@ -1,5 +1,5 @@
 *{
-  /*transition: 2s;*/
+  transition: 2s;
 }
 
 .vid {
@@ -37,15 +37,15 @@
   font
 }
 
-.castle{
-      padding-left: 245px;
-      height:766px;
-    vendor-animation-duration: 3s;
+.castle {
+  padding-left: 245px;
+  height:766px;
+  vendor-animation-duration: 3s;
   vendor-animation-delay: 2s;
   vendor-animation-iteration-count: infinite;
   background-color: white;
 }
-}
+
 
 .dates {
   padding-left: 65px;
@@ -54,7 +54,7 @@
 
 .lildude{
   height: 333px;
-  margin-right: -883px;
+  margin-right: -961px;
   position: relative;
   width: 247px;
   margin-top: -230px;

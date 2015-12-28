@@ -47,10 +47,10 @@ var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimation
     })
 
 // multiple dudes
-    $('.lildude').on("click",function(){
-      $(this).appendTo(".max")
-      console.log('works');
-    })
+    // $('.lildude').on("click",function(){
+    //   $(this).appendTo(".max")
+    //   console.log('works');
+    // })
 
 // draggable stuff inside container
     var $draggable =
