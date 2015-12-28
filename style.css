@@ -1,5 +1,5 @@
 *{
-  transition: 2s;
+  /*transition: 2s;*/
 }
 
 .vid {
@@ -12,6 +12,10 @@
   padding-left: 436px;
   height: 16px;
   width: 384px;
+}
+
+.stonePalace{
+
 }
 
 .exhibition{
