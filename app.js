@@ -32,4 +32,8 @@ var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimation
       $(this).removeClass(secondAnimation)
     });
     })
+
+    var $draggable = $('.draggable').draggabilly({
+  
+})
 	});
