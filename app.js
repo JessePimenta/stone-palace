@@ -2,8 +2,10 @@ $(document).ready(function () {
 
 var animationName = 'animated pulse';
 var animationFlash = 'animated flash';
-var secondAnimation = 'animated jello'
+var secondAnimation = 'animated jello';
 var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+
 
 
 //castle moon bounce action
@@ -21,24 +23,21 @@ var animationend = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimation
     });
     })
   // stonePalace animation
-    // $('.stonePalace').on('click',function(){
-    //   $(this).addClass(animationName).one(animationend,function(){
-    //   $(this).removeClass(animationName)
-    //   $(this).appendTo('.max')
-    // });
-    // })
+
 // name pulse
     $('.max').hover(function(){
       $(this).addClass(animationName).one(animationend,function(){
       $(this).removeClass(animationName)
     });
     })
+
 // info pulse
     $('.datesNTime').hover(function(){
       $(this).addClass(animationName).one(animationend,function(){
       $(this).removeClass(animationName)
     });
     })
+
 // lil dude jello bounce
     $('.lildude').hover(function(){
       $(this).addClass(secondAnimation).one(animationend,function(){

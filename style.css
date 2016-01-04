@@ -6,6 +6,14 @@ html {
   height: 100%;
 }
 
+#logoSize {
+  max-width: 600px;
+}
+
+.dudesize {
+  max-width: 100% !important;
+}
+
 .vid {
   margin: 0 auto;
   text-align: center;
@@ -15,6 +23,8 @@ html {
 video {
   width: 100%    !important;
   height: auto   !important;
+  color-rendering: optimizeSpeed;
+  buffered-rendering: auto;
 }
 
 #stonePalace {
@@ -23,22 +33,20 @@ video {
   width: 384px;
   text-align: center;
   margin: 0 auto;
-
 }
 
-.stonePalace{
+.stonePalace {
   height: 196px;
 }
 
-.exhibition{
+
+.exhibition {
   font-family: Menlo;
   text-align: center;
   font-size: 25px;
-
-
-
 }
-.secondText{
+
+.secondText {
   font-family: Menlo;
   text-align: center;
   padding-top: -10px;
@@ -47,7 +55,6 @@ video {
   line-height: 36px;
   font-size: 15px;
   font-style: italic;
-
 }
 
 .container {
@@ -55,19 +62,14 @@ video {
   margin: auto;
 }
 
-#castleSize {
-
-
-}
-
 .castle {
-  /*padding-left: 245px;*/
   vendor-animation-duration: 3s;
-  vendor-animation-delay: 2s;
+  /*vendor-animation-delay: 2s;*/
   vendor-animation-iteration-count: infinite;
   background-color: white;
   height: 50%;
   width: 50%;
+  transition: 2s;
 }
 
 
@@ -80,29 +82,28 @@ video {
   font-style: normal;
 }
 
-.lildude{
+.lildude {
   height: 133px;
   margin-right: -961px;
   position: relative;
   width: 47px;
   margin-top: -230px;
-
+  transition: 2s;
 }
 
 footer {
-    text-align: center;
-    position: relative;
-    /*margin-right: -970px;*/
-    /*padding-left: 610px;*/
-    font-family: sans-serif;
-    font-size: 11px;
+  text-align: center;
+  position: relative;
+  /*margin-right: -970px;*/
+  /*padding-left: 610px;*/
+  font-family: sans-serif;
+  font-size: 11px;
 }
 
-ul{
-
-   text-align: center;
-   font-size: 20px;
-   line-height: normal;
+ul {
+  text-align: center;
+  font-size: 20px;
+  line-height: normal;
 }
 
 img {
@@ -118,5 +119,6 @@ img.lildude.draggable {
   width: 100%    !important;
   height: auto   !important;
   /*margin: 0 0 15px 0;*/
-  max-height: 570px;
+  max-height: 600px;
+  max-width: 300px;
 }
